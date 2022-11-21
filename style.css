@@ -1,0 +1,47 @@
+@media (max-width: 575px) and {
+    .container{
+        width: auto;
+        display: inline-block;
+        text-align: center;
+        color:red;
+    }
+    .header-right {
+        display: block;
+        padding-top: 15px;
+    }
+    .search-form{
+        margin-bottom: 15px;
+    }
+    .search-input, .search-i{
+        font-size: 17px;
+    }
+    .cart-informer{
+        padding-left: 0;
+    }
+    .cart-informer__count{
+        font-size: 19px;
+        width: 29px;
+        height: 29px;
+    }
+    .cart-informer__icon {
+        width: 51px;
+        height: 51px;
+    }
+    .cart-informer__icon-i{
+        font-size: 23px;
+    }
+    .cart-informer__i, .cart-informer__value{
+        font-size: 19px;
+    }
+}
+img {
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+
+.container{
+    width: auto;
+    display: inline-block;
+    text-align: center;
+}
